@@ -1,0 +1,46 @@
+/* по названию элемента */
+h1 {
+	color: green;
+}
+
+/* по id */
+#second-element {
+	color: aqua;
+	font-size: 25px;
+}
+
+/* по классу */
+.third-element {
+	color: red;
+}
+
+/* по нескольким классам */
+.fourth.element {
+	color:brown;
+}
+
+/* селектор потомков */
+ul li {
+	color: blue;
+}
+
+div b i {
+	color: blueviolet;
+	font-size: 25px;
+}
+
+li:nth-last-child(2) {
+	color: tomato;
+}
+
+div#lorem-text > ul > li {
+	color: maroon;
+}
+
+div:hover {
+	background-color: yellowgreen;
+}
+
+ul > li:last-child {
+	color: lawngreen;
+}
